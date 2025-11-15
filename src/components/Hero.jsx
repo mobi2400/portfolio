@@ -28,7 +28,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: FiGithub, href: 'https://github.com', label: 'GitHub' },
     { icon: FiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FiMail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: FiMail, href: 'mailto:mobasshirkhan9931@gmail.com', label: 'Email' },
   ]
 
   return (
@@ -63,12 +63,12 @@ const Hero = () => {
             className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
           >
             <span className="block text-primary-900">Hello, I'm</span>
-            <span className="block accent-gradient mt-2">John Doe</span>
+            <span className="block accent-gradient mt-2">Md Mobasshir Shakil Khan</span>
             <span className="block text-primary-700 text-4xl md:text-5xl lg:text-6xl mt-4 font-semibold">
-              Crafting digital solutions
+              Freelancer
             </span>
             <span className="block text-primary-600 text-4xl md:text-5xl lg:text-6xl font-normal">
-              that drive results
+              that delievers quality products.
             </span>
           </motion.h1>
 
@@ -103,7 +103,7 @@ const Hero = () => {
               Get In Touch
             </motion.a>
             <motion.a
-              href="/resume.pdf"
+              href="/mobasshir-resume.pdf"
               download
               className="inline-flex items-center gap-2 text-primary-700 hover:text-primary-900 font-medium transition-colors group"
               whileHover={{ x: 2 }}
