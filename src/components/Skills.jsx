@@ -43,7 +43,7 @@ const Skills = () => {
       category: 'Tools & Others',
       skills: [
         { name: 'Git', icon: SiGit, level: 90 },
-        { name: 'Docker', icon: SiDocker, level: 60 },
+        { name: 'Docker', icon: SiDocker, level: 60},
       ],
     },
   ]
@@ -71,10 +71,13 @@ const Skills = () => {
   }
 
   return (
-    <section
+    <motion.section
       id="skills"
       ref={ref}
       className="section-container bg-white"
+      initial={{ opacity: 0, y: 20 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <motion.div
         variants={containerVariants}
@@ -165,7 +168,7 @@ const Skills = () => {
           ))}
         </div>
       </motion.div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -27,17 +27,20 @@ const About = () => {
   }
 
   const stats = [
-    { number: '50+', label: 'Projects Completed' },
-    { number: '3+', label: 'Years Experience' },
-    { number: '30+', label: 'Happy Clients' },
+    { number: '5', label: 'Projects Completed' },
+    { number: '1', label: 'Years Experience' },
+    { number: '3', label: 'Happy Clients' },
     { number: '100%', label: 'Satisfaction' },
   ]
 
   return (
-    <section
+    <motion.section
       id="about"
       ref={ref}
       className="section-container bg-primary-50"
+      initial={{ opacity: 0, y: 20 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <motion.div
         variants={containerVariants}
@@ -116,12 +119,12 @@ const About = () => {
               {
                 title: 'Frontend Development',
                 description:
-                  'Creating responsive and interactive user interfaces using React, Vue, and modern CSS frameworks.',
+                  'Creating responsive and interactive user interfaces using React,Next.js, and modern CSS frameworks.',
               },
               {
                 title: 'Backend Development',
                 description:
-                  'Building robust server-side applications with Node.js, Express, and database management.',
+                  'Building robust server-side applications with Node.js, Express, and ORM tools like MongoDB and PostgreSQL  .',
               },
               {
                 title: 'Full Stack Solutions',
@@ -144,7 +147,7 @@ const About = () => {
           </div>
         </motion.div>
       </motion.div>
-    </section>
+    </motion.section>
   )
 }
 

@@ -9,7 +9,12 @@ const Footer = () => {
   }
 
   return (
-    <footer className="bg-primary-900 text-white py-12 border-t border-primary-800">
+    <motion.footer
+      className="bg-primary-900 text-white py-12 border-t border-primary-800"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -92,7 +97,7 @@ const Footer = () => {
           </motion.button>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   )
 }
 

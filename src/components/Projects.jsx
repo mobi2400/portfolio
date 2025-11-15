@@ -62,10 +62,13 @@ const Projects = () => {
   }
 
   return (
-    <section
+    <motion.section
       id="projects"
       ref={ref}
       className="section-container bg-primary-50"
+      initial={{ opacity: 0, y: 20 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <motion.div
         variants={containerVariants}
@@ -153,7 +156,7 @@ const Projects = () => {
           ))}
         </div>
       </motion.div>
-    </section>
+    </motion.section>
   )
 }
 
