@@ -35,27 +35,27 @@ const Contact = () => {
     {
       icon: FiMail,
       label: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      value: 'mobasshirkhan9931@gmail.com',
+      link: 'mailto:mobasshirkhan9931@gmail.com',
     },
     {
       icon: FiPhone,
       label: 'Phone',
-      value: '+1 (234) 567-8900',
-      link: 'tel:+12345678900',
+      value: '+919142365645',
+      link: 'tel:+919142365645',
     },
     {
       icon: FiMapPin,
       label: 'Location',
-      value: 'New York, USA',
-      link: '#',
+      value: 'BANGLORE, KARNATAKA, India',
+      link: 'https://www.google.com/maps/place/Bangalore,+Karnataka,+India',
     },
   ]
 
   const socialLinks = [
-    { icon: SiGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: SiLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: SiGmail, href: 'mailto:your.email@example.com', label: 'Email' },
+    { icon: SiGithub, href: 'https://github.com/mobi2400', label: 'GitHub' },
+    { icon: SiLinkedin, href: 'https://www.linkedin.com/in/md-mobasshir-shakil-khan-8ba835326/', label: 'LinkedIn' },
+    { icon: SiGmail, href: 'mailto:mobasshirkhan9931@gmail.com', label: 'Email' },
   ]
 
   const containerVariants = {
