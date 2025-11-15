@@ -43,7 +43,7 @@ const Skills = () => {
       category: 'Tools & Others',
       skills: [
         { name: 'Git', icon: SiGit, level: 90 },
-        { name: 'Docker', icon: SiDocker, level: 75 },
+        { name: 'Docker', icon: SiDocker, level: 60 },
       ],
     },
   ]

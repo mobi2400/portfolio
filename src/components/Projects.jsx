@@ -7,65 +7,36 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'curricuaflex',
       description:
-        'A full-stack e-commerce solution with payment integration, admin dashboard, and real-time inventory management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
+        ' Collaborative portal for colleges to track students, attendance, and records; modular dashboards for admins and students.  Implemented ML analytics for performance insights and a blockchain-backed proof-of-record concept for tamper-evident logs.',
+      technologies: ['React','Tailwind CSS' ,'Node.js', 'MongoDB',' Machine Learning', 'Blockchain'],
+      image: 'https://media.licdn.com/dms/image/v2/D4E2DAQGjb2kkVDFDwA/profile-treasury-image-shrink_800_800/B4EZpkBUjYIUAY-/0/1762614660384?e=1763794800&v=beta&t=m4PK9fjsrbPE5Hzxfw2YxaHv4tpp_1A5ss4YQvclLyM',
+      github: 'https://github.com/mobi2400/sol-attendance',
+      live: 'https://sol-attendance-q3ow.vercel.app/',
       featured: true,
     },
     {
-      title: 'Task Management App',
+      title: 'Debsoc Page',
       description:
-        'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'Firebase', 'Tailwind CSS'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
+        'Developed a fully functional website for DebSoc, incorporating features such as a random motion generator and quote display. Future enhancements are planned, including a personalized dashboard for each member to monitor their progress in real-time',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      image: '/image.png',
+      github: 'https://github.com/mobi2400/Debsoc2.0',
+      live: 'https://www.smvitdebsoc.com/',
       featured: true,
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Library Management System',
       description:
-        'A beautiful weather dashboard with location-based forecasts, interactive maps, and weather alerts.',
-      technologies: ['React', 'API Integration', 'Chart.js'],
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false,
+        'Automated library workflows (issue/return/search/inventory) using a MERN stack application. Built role-based access, efficient search, and an admin dashboard to simplify librarian operations',
+      technologies: ['React', 'API Integration', 'MongoDB' ,'Tailwind CSS' ,'Node.js', 'Express'],
+      image: '',
+      github: 'https://github.com/mobi2400/Project-Beta-Backend-Library-Management-System-',
+      live: 'https://library-frontend2-0.vercel.app/',
+      featured: true,
     },
-    {
-      title: 'Social Media Dashboard',
-      description:
-        'Analytics dashboard for social media metrics with data visualization, export functionality, and custom reports.',
-      technologies: ['Next.js', 'TypeScript', 'PostgreSQL'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false,
-    },
-    {
-      title: 'Blog Platform',
-      description:
-        'A modern blog platform with markdown support, SEO optimization, and content management system.',
-      technologies: ['Next.js', 'MDX', 'Tailwind CSS'],
-      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false,
-    },
-    {
-      title: 'Chat Application',
-      description:
-        'Real-time chat application with multiple rooms, file sharing, and end-to-end encryption.',
-      technologies: ['React', 'Socket.io', 'Node.js'],
-      image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800',
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false,
-    },
+
   ]
 
   const containerVariants = {
