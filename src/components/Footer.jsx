@@ -69,17 +69,17 @@ const Footer = () => {
               Let's work together on your next project.
             </p>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:mobasshirkhan9931@gmail.com"
               className="text-accent-400 hover:text-accent-300 transition-colors text-sm font-light"
             >
-              your.email@example.com
+              mobasshirkhan9931@gmail.com
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-400 text-sm font-light">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Mobasshir Khan. All rights reserved.
           </p>
           <motion.button
             onClick={scrollToTop}
