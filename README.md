@@ -1,123 +1,35 @@
-# Full Stack Developer Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion.
+## FOLIO
 
-## Features
+[Live Demo](https://www.linkedin.com/in/md-mobasshir-shakil-khan-8ba835326/)
 
-- 🎨 Modern and unique UI/UX design
-- 📱 Fully responsive layout
-- ⚡ Optimized performance with code splitting
-- 🎭 Smooth animations with Framer Motion
-- 🌈 Gradient effects and modern styling
-- 📊 Skills showcase with progress bars
-- 💼 Projects portfolio section
-- 📧 Contact form
-- 🚀 Fast loading with Vite
+To cater to my goal of having my own portfolio website since 2016 🚀
 
-## Tech Stack
+## How did I create this?
 
-- **React** - UI library
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animation library
-- **Vite** - Build tool
-- **React Icons** - Icon library
+1. UI/UX is brainstormed using inspiration from winning portfolios from awwwards. High-fidelity mockup aggregating the ideas using Figma.
+2. This project uses React for simplicity to break down sections as components. Also uses next.js to achieve SSG. SVGs have been animated using CSS.
+3. Section scrolling and reveal animations uses GSAP. Card interactions use Tilt js. The timeline section was built using JS/SVGs and animated via GSAP.
+4. Optimised animations, layer management, repaints, and re-layouts using Chrome dev tools.
 
-## Getting Started
+## How to run on local?
 
-### Installation
+First, run the development server:
 
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
-3. Open your browser and navigate to `http://localhost:5173`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Build for Production
+## Forked Versions from Community
 
-```bash
-npm run build
-```
+Vue JS implemetation by sjtuli: [filio-vue](https://github.com/sjtuli/filio-vue)
+Same template with a slightly different flavor by shubh73: [devfolio](https://github.com/shubh73/devfolio)
 
-The built files will be in the `dist` directory.
+## A note on re-sharing
 
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-## Customization
-
-1. **Update Personal Information:**
-   - Edit `src/components/Hero.jsx` to change your name and title
-   - Update social media links in `Hero.jsx` and `Contact.jsx`
-   - Modify contact information in `Contact.jsx`
-
-2. **Update Skills:**
-   - Edit `src/components/Skills.jsx` to add or modify your skills
-   - Adjust skill levels (percentages) as needed
-
-3. **Update Projects:**
-   - Edit `src/components/Projects.jsx` to add your projects
-   - Update project images, descriptions, and links
-
-4. **Update About Section:**
-   - Edit `src/components/About.jsx` to update your bio
-   - Modify statistics and services
-
-5. **Update Colors:**
-   - Edit `tailwind.config.js` to customize the color scheme
-   - Modify gradient colors in components
-
-## Project Structure
-
-```
-portfolio/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── About.jsx
-│   │   ├── Skills.jsx
-│   │   ├── Projects.jsx
-│   │   ├── Contact.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-```
-
-## Performance Optimizations
-
-- Code splitting for vendor libraries
-- Lazy loading images
-- Optimized animations
-- Minimal bundle size
-- Fast page load times
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## License
-
-MIT License - feel free to use this portfolio for your own projects!
-
-## Contact
-
-For questions or suggestions, feel free to reach out!
-
+I have been refining the project using 7+ years of my learnings. While I appreciate the beauty of open source, due credits to the project will be appreciated if you plan to re-share the template. Copyright headers with author name should be included under the forked versions as well. Happy coding :)
